@@ -3,7 +3,7 @@ import random
 def mostrar_manual():
     """Lee y muestra el contenido del manual del juego."""
     try:
-        with open('manual_juego.txt', 'r') as archivo:
+        with open('manual_juego.txt.py', 'r') as archivo:
             contenido = archivo.read()
             print(contenido)
     except FileNotFoundError:
